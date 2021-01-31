@@ -1,0 +1,16 @@
+{
+  "name": "graphql-codegen-issue-template",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "yarn codegen",
+    "generate": "yarn codegen",
+    "codegen": "graphql-codegen --config ./codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/add": "1.13.5",
+    "@graphql-codegen/cli": "1.13.5",
+    "@graphql-codegen/typescript": "1.13.5",
+    "@graphql-codegen/typescript-resolvers": "1.13.5",
+    "graphql": "15.0.0"
+  }
+}
